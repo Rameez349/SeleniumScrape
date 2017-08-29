@@ -32,8 +32,8 @@ namespace Selenium_WF
             
             RealtimeLogs = "Initialized Web Driver for Chrome \n";
             rt_Logs.Text += RealtimeLogs.ToString();
-            RealtimeLogs = "Processing.... \n";
-            rt_Logs.Text += RealtimeLogs.ToString();
+            //RealtimeLogs = "Processing.... \n";
+            //rt_Logs.Text += RealtimeLogs.ToString();
             JobTitlesList = new List<string>();
             Aplhabets = new string[] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
             //Aplhabets = new string[] { "C" };
