@@ -25,7 +25,7 @@ namespace Selenium_WF
             InitializeComponent();
             RealtimeLogs = "Application Launched \n";
             rt_Logs.Text += RealtimeLogs.ToString();
-            var chromeDriverService = ChromeDriverService.CreateDefaultService(@"C:\chromedriver_win32");
+            var chromeDriverService = ChromeDriverService.CreateDefaultService(AppDomain.CurrentDomain.BaseDirectory.ToString() + "/chromedriver_win32");
             chromeDriverService.HideCommandPromptWindow = true;
             driverChrome =  new ChromeDriver(chromeDriverService, new ChromeOptions());
            // driverChrome = new ChromeDriver(@"C:\chromedriver_win32");
